@@ -12,6 +12,7 @@ includes:
 
 TODO:
  - add client projects (Xamarin / web[later])
+ - request validation
  - get basic custom auth working with refresh tokens
  - add social auth
  - add role assignments

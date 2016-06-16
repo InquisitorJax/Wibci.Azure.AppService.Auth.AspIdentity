@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/packages
+/Wibci.Azure.AppService.Auth/bin/Debug
+/.vs/config
+/Wibci.Azure.AppService.Auth/obj/Debug
+/Wibci.Azure.AppService.Auth.Server/bin
+/Wibci.Azure.AppService.Auth.Server/obj/Debug
+/Wibci.Core/obj/Debug

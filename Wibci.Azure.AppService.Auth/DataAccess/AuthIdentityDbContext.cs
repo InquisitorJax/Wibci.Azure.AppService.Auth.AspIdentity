@@ -6,6 +6,10 @@ namespace Wibci.Azure.AppService.Auth
 {
     public class AuthIdentityDbContext : IdentityDbContext<ApplicationUser>
     {
+        public AuthIdentityDbContext()
+        {
+        }
+
         public AuthIdentityDbContext(string connection) : base(connection)
         {
             Configuration.ProxyCreationEnabled = false;

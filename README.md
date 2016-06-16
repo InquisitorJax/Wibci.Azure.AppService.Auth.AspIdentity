@@ -19,6 +19,6 @@ TODO:
  - 
  
 External references:
-AspIdentity: http://bitoftech.net/2015/01/21/asp-net-identity-2-with-asp-net-web-api-2-accounts-management/
-Azure App Service Identity: http://www.pa-roy.com/azure-app-services-custom-auth-part-3/
-Refresh tokens: http://bitoftech.net/2014/07/16/enable-oauth-refresh-tokens-angularjs-app-using-asp-net-web-api-2-owin/&safe=active&as_qdr=all
+ - AspIdentity: http://bitoftech.net/2015/01/21/asp-net-identity-2-with-asp-net-web-api-2-accounts-management/
+ - Azure App Service Identity: http://www.pa-roy.com/azure-app-services-custom-auth-part-3/
+ - Refresh tokens: http://bitoftech.net/2014/07/16/enable-oauth-refresh-tokens-angularjs-app-using-asp-net-web-api-2-owin/&safe=active&as_qdr=all

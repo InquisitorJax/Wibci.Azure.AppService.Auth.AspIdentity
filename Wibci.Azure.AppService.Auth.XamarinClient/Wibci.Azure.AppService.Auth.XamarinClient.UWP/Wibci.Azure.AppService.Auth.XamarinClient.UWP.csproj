@@ -127,6 +127,19 @@
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Wibci.Core\Wibci.Core.csproj">
+      <Project>{7d26aaac-5689-403d-84ee-9340213a1241}</Project>
+      <Name>Wibci.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Wibci.Azure.AppService.Auth.XamarinClient\Wibci.Azure.AppService.Auth.XamarinClient.csproj">
+      <Project>{c33b4b36-ec2d-43c2-9e4d-7ba2042a200f}</Project>
+      <Name>Wibci.Azure.AppService.Auth.XamarinClient</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

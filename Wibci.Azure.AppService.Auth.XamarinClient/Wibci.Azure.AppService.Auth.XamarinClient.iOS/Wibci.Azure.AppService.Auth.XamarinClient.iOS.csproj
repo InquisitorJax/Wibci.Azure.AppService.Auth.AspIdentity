@@ -137,6 +137,16 @@
     </Reference>
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Wibci.Core\Wibci.Core.csproj">
+      <Project>{7d26aaac-5689-403d-84ee-9340213a1241}</Project>
+      <Name>Wibci.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Wibci.Azure.AppService.Auth.XamarinClient\Wibci.Azure.AppService.Auth.XamarinClient.csproj">
+      <Project>{c33b4b36-ec2d-43c2-9e4d-7ba2042a200f}</Project>
+      <Name>Wibci.Azure.AppService.Auth.XamarinClient</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Forms.2.3.0.49\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.2.3.0.49\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

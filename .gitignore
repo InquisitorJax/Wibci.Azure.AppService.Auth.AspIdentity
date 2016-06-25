@@ -9,3 +9,9 @@
 /Wibci.Azure.AppService.Auth.Server/bin
 /Wibci.Azure.AppService.Auth.Server/obj/Debug
 /Wibci.Core/obj/Debug
+/Wibci.Azure.AppService.Auth.XamarinClient/Wibci.Azure.AppService.Auth.XamarinClient/bin/Debug
+/Wibci.Azure.AppService.Auth.XamarinClient/Wibci.Azure.AppService.Auth.XamarinClient/obj/Debug
+/Wibci.Azure.AppService.Auth.XamarinClient/Wibci.Azure.AppService.Auth.XamarinClient.Droid/obj/Debug
+/Wibci.Azure.AppService.Auth.XamarinClient/Wibci.Azure.AppService.Auth.XamarinClient.Droid/Resources/Resource.Designer.cs
+/Wibci.Azure.AppService.Auth.XamarinClient/Wibci.Azure.AppService.Auth.XamarinClient.iOS/obj/iPhone/Debug
+/Wibci.Azure.AppService.Auth.XamarinClient/Wibci.Azure.AppService.Auth.XamarinClient.UWP/obj/x86/Debug
